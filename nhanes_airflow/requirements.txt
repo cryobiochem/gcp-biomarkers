@@ -1,0 +1,4 @@
+pandas
+pyreadstat
+dbt-bigquery
+google-cloud-bigquery

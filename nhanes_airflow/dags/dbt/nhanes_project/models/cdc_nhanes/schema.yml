@@ -1,0 +1,30 @@
+
+version: 2
+
+models:
+  - name: stg_health_data
+    description: "Select relevant raw data from source"
+    columns:
+      - name: id
+        description: "The primary key for this table is"
+        data_tests:
+          - unique
+          - not_null
+
+  - name: int_biomarkers_enriched
+    description: "View that establishes a transformation based on cholesterol levels to assert a category"
+    columns:
+      - name: id
+        description: "The primary key for this table is"
+        data_tests:
+          - unique
+          - not_null
+  
+  - name: fct_longevity_summary
+    description: "View that calculates the average cholesterol levels by age and how many people fit into that category"
+    columns:
+      - name: id
+        description: "The primary key for this table is"
+        data_tests:
+          - unique
+          - not_null
