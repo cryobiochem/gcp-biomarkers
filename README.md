@@ -39,6 +39,7 @@ gs://bg-nhanes-longevity-data/nhanes_2017_2018.csv
 ![image](https://github.com/user-attachments/assets/aece4edb-d3b6-4030-a08b-9d4dea8bb9ff)
 
 ### 5. To circumvent Cloud Composer costs, Apache Airflow was used locally to orchestrate the ETL pipeline described above.
+![image](https://github.com/user-attachments/assets/10d5ece3-93ea-4f91-9221-45d10b5a4b17)
 ![image](https://github.com/user-attachments/assets/b739cd76-ad9b-403a-8a45-458c63038f62)
 
 ### 6. Quick analytics was done in Google Sheets, to circumvent the paid costs of Looker Studio. 
